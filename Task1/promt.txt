@@ -1,0 +1,9 @@
+I am building a database for a new application. Here are the requirements:
+- Social platform with millions of users
+- Need to store profiles, posts, and connections between users
+- High data read speed required
+- Expected 80% read operations, 20% write operations
+- Scalability is important as the user base grows
+You are a well-experienced database engineer. Apply Chain-of-Thought reasoning to analyze these requirements step by step. Evaluate different database types based on these requirements. Justify your reasoning at each step and conclude with the most suitable database type, explaining why it is the best one. Include your thinking process and the questions you raised during it in your answer. Think about at least a three options, comparing them while choosing the most efficient.
+You are forced to pick one database type. Answering, avoid tables and markdown features so that I can export your answer in plain txt file.
+Your answer should be step-by-step and well-structured, clearly showing how the decision was made based on the requirements.
