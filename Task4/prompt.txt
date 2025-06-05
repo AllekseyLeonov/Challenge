@@ -1,0 +1,25 @@
+You are an AI code reviewer. Review a JavaScript function called processUserData.
+function processUserData(data: any) {
+  var users = [];
+
+  for (var i = 0; i < data.length; i++) {
+    var user = {
+      id: data[i].id,
+      name: data[i].name,
+      email: data[i].email,
+      active: data[i].status === 'active' ? true : false
+    };
+    users.push(user);
+  }
+  console.log("Processed " + users.length + " users");
+  return users;
+}
+
+function saveToDatabase(users) {
+  //TODO: Implement database connection
+  var success = true;
+  return success;
+}
+Your task is to analyze this function from three different expert perspectives sequentially and provide specific, actionable feedback for each. Focus on different aspects according to each role:
+Experienced Developer, Security Engineer and Performance Specialist
+Please present your findings clearly under each role, with concise bullet points and actionable suggestions. Use technical depth appropriate for an experienced software engineer. Do not repeat the code.
